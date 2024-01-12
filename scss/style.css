@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+
+.big {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.first-section .contact_us {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  background: var(--Grey, #F4F6FC);
+}
+.first-section .contact_us .send {
+  display: flex;
+  width: 254px;
+  height: 64px;
+  padding: 15px 51px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: var(--Dark-blue, #282938);
+  border: none;
+  color: white;
+  transition: 0.4s;
+  margin-right: 450px;
+  top: -300px;
+  z-index: 1;
+}
+.first-section .contact_us .send:hover {
+  background: #F4F6FC;
+  color: #282938;
+  border: #282938 1px solid;
+}
+.first-section .contact_us .message {
+  display: block;
+  width: 700px;
+  height: 138px;
+  padding: 18px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  flex-shrink: 0;
+}
+.first-section .contact_us .inputs {
+  gap: 15px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.first-section .contact_us .inputs .message::-moz-placeholder {
+  align-self: flex-start;
+}
+.first-section .contact_us .inputs .message::placeholder {
+  align-self: flex-start;
+}
+.first-section .contact_us .inputs .names {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.first-section .contact_us .inputs .names h1 {
+  color: #000;
+  /* Label 01 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 32px; /* 177.778% */
+}
+.first-section .contact_us .inputs input {
+  width: 300px;
+  display: inline-flex;
+  padding: 15px 35px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.first-section .contact_us .inputs .input::-moz-placeholder {
+  color: #000;
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.first-section .contact_us .inputs .input::placeholder {
+  color: #000;
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}/*# sourceMappingURL=style.css.map */
